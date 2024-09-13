@@ -1,2 +1,2 @@
 demo about my portfolio
-https://github.com/zyond26/demo/tree/main
+https://github.com/zyond26/demo
