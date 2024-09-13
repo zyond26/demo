@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio of Dieu, an IT student specializing in web development, AI, and data science."
+    />
+    <meta
+      name="keywords"
+      content="Dieu, IT student, web development, AI, data science, portfolio"
+    />
+    <meta name="author" content="Nguyen Dieu" />
+    <title>My Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body {
+        font-family: "Roboto", sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+      }
+
+      header {
+        background-color: #333;
+        padding: 15px 0;
+        text-align: center;
+      }
+
+      .nav-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+      }
+
+      .nav-links li {
+        margin: 0 15px;
+      }
+
+      .nav-links a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        padding: 10px 20px;
+        transition: background-color 0.3s ease;
+      }
+
+      .nav-links a:hover {
+        background-color: #555;
+        color: #fff;
+      }
+
+      section {
+        padding: 20px;
+        margin: 10px 0;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      #home {
+        background-color: #e8f4f8;
+        text-align: center;
+        padding: 50px 20px;
+        animation: fadeIn 1.5s ease-in-out;
+      }
+
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+
+      #about {
+        background-color: #fdfdfd;
+      }
+
+      .skill-bar {
+        background-color: #ddd;
+        border-radius: 20px;
+        margin: 10px 0;
+      }
+
+      .skill-bar div {
+        height: 20px;
+        border-radius: 20px;
+        background-color: #6cae75;
+        text-align: center;
+        line-height: 20px;
+        color: #fff;
+      }
+
+      footer {
+        text-align: center;
+        padding: 10px;
+        background-color: #333;
+        color: #fff;
+      }
+
+      @media (max-width: 768px) {
+        .nav-links {
+          flex-direction: column;
+        }
+
+        .nav-links li {
+          margin: 10px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home">
+      <h1>Welcome to My Portfolio</h1>
+      <p>I'm Dieu, an Information Technology student.</p>
+    </section>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm Dieu, an IT student with a passion for web development, AI,
+        and data science. I enjoy building projects that help solve real-world
+        problems.
+      </p>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <strong>Project 1:</strong> A library management system using C# and
+          SQL Server.
+        </li>
+        <li>
+          <strong>Project 2:</strong> A chatbot for document analysis using Rasa
+          and Python.
+        </li>
+        <li>
+          <strong>Project 3:</strong> A simple portfolio website showcasing my
+          work and skills.
+        </li>
+      </ul>
+    </section>
+
+    <section id="skill">
+      <h2>Skills</h2>
+      <p>Here are some of my technical skills:</p>
+      <div class="skill-bar">
+        <div style="width: 90%">C# - 90%</div>
+      </div>
+      <div class="skill-bar">
+        <div style="width: 85%">Python - 85%</div>
+      </div>
+      <div class="skill-bar">
+        <div style="width: 75%">JavaScript - 75%</div>
+      </div>
+      <div class="skill-bar">
+        <div style="width: 80%">SQL Server - 80%</div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        You can contact me via email at
+        <a href="mailto:dieupvn345@gmail.com">dieupvn345@gmail.com</a>.
+      </p>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Nguyen Dieu. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
